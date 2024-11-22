@@ -9,10 +9,10 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body {
+    /* body {
         padding: 30px 50px;
         margin: 0;
-    }
+    } */
 `;
 
 export default GlobalStyles;
