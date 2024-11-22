@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
+import Hello from './MyComponent1';
+import World from './MyComponent2';
+
+// App 이라는 이름의 함수형 컴포넌트 정의
+// 반환되는 HTML 코드는 JSX 문법을 사용한다.
+// JSX : XML 과 비슷한 React 전용 Javascript 확장 문법
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <h1>Hello React</h1>
+        
+        {/* Hello와 World 라는 이름의 컴포넌트 출력 */}
+        <Hello></Hello>
+        <World />
     </div>
   );
 }
