@@ -84,7 +84,7 @@ const Graph1 = memo(() => {
                 }}
                 options={{
                     responsive: true,
-                    maintainAspecRatio: false,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: {
                             position: 'bottom',
